@@ -13,4 +13,4 @@ class TestAreaTriangulo(unittest.TestCase):
 
     def test_area_triangulo_altura_cero(self):
         with self.assertRaises(ValueError):
-            area_triangulo(3, 0) 
+            area_triangulo(3, 0)  
